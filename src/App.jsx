@@ -38,7 +38,7 @@ function App() {
       }))
     );
     XLSX.utils.book_append_sheet(wb, ws, "sheet1");
-    XLSX.writeFile(wb, "MathFest2023_Scores_PG.xlsx");
+    XLSX.writeFile(wb, "MathElite2024_Scores.xlsx");
   };
 
   return (
@@ -53,7 +53,7 @@ function App() {
           <tr>
             <th>ID</th>
             <th>Submitted On</th>
-            <th>College</th>
+            <th>Reg No</th>
             <th>Name</th>
             <th>EmailID</th>
             <th>Time Taken</th>
